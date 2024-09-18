@@ -4,9 +4,9 @@ jobs:
   premierJob:
     runs-on: ubuntu-latest
     steps:
-    - name: Mon Premier Job
-      run: echo "Démarrage du Job"
-    - name: Mes premieres instructions
-      run: ls /
-    - name: Fin du premier Job
-      run: echo "That's all for folks"
+      - name: Mon Premier Job
+        run: echo "Démarrage du Job"
+      - name: Mes premieres instructions
+        run: ls /
+      - name: Fin du premier Job
+        run: echo "That's all for folks"
